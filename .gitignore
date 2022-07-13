@@ -1,0 +1,4 @@
+ExternalAdapterProject/node_modules/
+ExternalAdapterProject/.envrc
+ExternalAdapterProject/package-lock.json
+ExternalAdapterProject/*.zip
