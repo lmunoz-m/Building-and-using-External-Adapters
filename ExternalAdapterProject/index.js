@@ -25,7 +25,6 @@ const createRequest = (input, callback) => {
   const url = `https://api.openweathermap.org/data/2.5/${endpoint}`
   const q = validator.validated.data.city.toUpperCase()
   const appid = process.env.API_KEY;
-  console.log(appid);
 
   const params = {
     q,
@@ -83,3 +82,9 @@ exports.handlerv2 = (event, context, callback) => {
 // This allows the function to be exported for testing
 // or for running in express
 module.exports.createRequest = createRequest
+
+
+
+
+
+
